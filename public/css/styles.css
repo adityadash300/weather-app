@@ -4,6 +4,9 @@ body {
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
+    background-image: url('../img/weather_bg.jpg');
+    background-size: 500px 450px;
+    background-repeat: no-repeat;
 
     display: flex;
     flex-direction: column;
@@ -12,6 +15,7 @@ body {
 
 .main-content {
     flex-grow: 1;
+    color: ;
 }
 
 footer{
@@ -46,12 +50,28 @@ input {
     padding: 8px;
 }
 
+p.alert{
+    font-style: oblique;
+    font-size: larger;
+}
+
+#alerts > *{
+    margin: 12px;
+    padding: 8px;
+    color: #000000
+}
+
 button {
     cursor: pointer;
     border: 1px solid #584f4f;
     background: #504a4a;
     color: whitesmoke;
     padding: 8px;
+}
+
+#noalert{
+    padding: 8px;
+    color: #000000;
 }
 
 
