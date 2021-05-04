@@ -15,7 +15,6 @@ body {
 
 .main-content {
     flex-grow: 1;
-    color: ;
 }
 
 footer{
@@ -69,9 +68,15 @@ button {
     padding: 8px;
 }
 
-#noalert{
+#noalert {
     padding: 8px;
     color: #000000;
 }
 
+#location-button {
+    cursor: pointer;
+    border: 0px;
+    background: #2abbc5;
+    border: 1px solid #8bf07d;
+}
 

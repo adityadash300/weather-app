@@ -13,10 +13,12 @@
             <p>Use this site to get your weather!</p>
 
             <form>
-                <input placeholder="Location">
                 <p>Check if you want alerts:<input id="alertBox" type="checkbox"></p>
-                <button>Search</button>
+                <p>Search by place name</p>
+                <input id="search-box" placeholder="Location">
+                <button type="submit">Search</button>
             </form>
+            <p>Or click <button id="location-button" type="button">here</button> to get your weather.</p>
 
             <p id="message-1"></p>
             <p id="message-2"></p>
@@ -32,5 +34,6 @@
         {{>footer}}
 
         <script src="./js/app.js"></script>
+        <script src="./js/results.js"></script>
     </body>
 </html>
