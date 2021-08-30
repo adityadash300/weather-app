@@ -26,7 +26,7 @@ app.get('', (req, res) => {
     res.render('index', {
         page_title: 'Home Page',
         title: 'Weather App',
-        name: 'Aditya Dash'
+        name: 'Aditya Dash & Amlan Satapathy'
     })
 })
 
@@ -34,7 +34,7 @@ app.get('/about', (req, res) => {
     res.render('about', {
         page_title: 'About',
         title: 'About Me',
-        name: 'Aditya Dash'
+        name: 'Aditya Dash & Amlan Satapathy'
     })
 })
 
@@ -42,7 +42,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         page_title: 'Help',
         title: 'Help Page',
-        name: 'Aditya Dash',
+        name: 'Aditya Dash & Amlan Satapathy',
         helpText: 'Helpful Text'
     })
 })
@@ -106,7 +106,7 @@ app.get('/help/*', (req, res) => {
     res.render('404', {
         page_title: 'Help Missing',
         title: '404',
-        name: 'Aditya Dash',
+        name: 'Aditya Dash & Amlan Satapathy',
         errorMessage: 'Help article not found.'
     })
 })
@@ -115,7 +115,7 @@ app.get('*', (req, res) => {
     res.render('404', {
         page_title: 'Missing page', 
         title: '404',
-        name: 'Aditya Dash',
+        name: 'Aditya Dash & Amlan Satapathy',
         errorMessage: 'Page not Found.'
     })
 })
